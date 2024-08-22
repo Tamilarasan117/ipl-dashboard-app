@@ -1,0 +1,142 @@
+/* Write your CSS here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.latest-matche-container {
+  background-color: #0f172a;
+  width: 100%;
+  border-radius: 7px;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.latest-matched-latest-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 100%;
+}
+.latest-matche-card1 {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+}
+.latest-match-details {
+  display: flex;
+  flex-direction: column;
+}
+.latest-match-img-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.latest-match-team-logo {
+  width: 200px;
+  margin-right: 80px;
+}
+.latest-match-competing-name {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.latest-match-date {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.latest-match-venue {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.latest-match-result {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.latest-matche-card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 35%;
+}
+.latest-match-innings-heading {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.latest-match-innings {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 1000px) {
+  .latest-match-competing-name {
+    font-size: 22px;
+  }
+  .latest-match-date {
+    font-size: 22px;
+  }
+  .latest-match-date {
+    font-size: 18px;
+  }
+  .latest-match-innings-heading {
+    font-size: 22px;
+  }
+  .latest-match-team-logo {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .latest-matche-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest-matche-card1 {
+    width: 100%;
+  }
+  .latest-matche-card2 {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .break {
+    width: 100%;
+    border: 2px solid;
+    margin: 20px 0;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .latest-match-team-logo {
+    width: 100px;
+  }
+  .latest-match-competing-name {
+    font-size: 20px;
+  }
+  .latest-match-date {
+    font-size: 20px;
+  }
+  .latest-match-date {
+    font-size: 16px;
+  }
+  .latest-match-result {
+    font-size: 16px;
+  }
+  .latest-match-innings-heading {
+    font-size: 20px;
+  }
+  .latest-match-innings {
+    font-size: 16px;
+  }
+}

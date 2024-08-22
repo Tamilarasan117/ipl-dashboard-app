@@ -1,0 +1,57 @@
+/* Write your CSS here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.team-matches-details-container {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+.team-matches-banner-img {
+  width: 100%;
+}
+.resent-match-card-list-container {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: flex-start;
+  justify-content: space-between;
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, #0f172a);
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #4f5db0);
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d);
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #0f172a);
+}
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+}
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #4f5db0);
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #a4261d);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #5755a7, #d91c1f);
+}

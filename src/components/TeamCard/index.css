@@ -1,0 +1,83 @@
+/* Write your CSS here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.team-list-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.team-list-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff;
+  background-color: #ffffff33;
+  border-radius: 5px;
+  width: 45%;
+  height: 170px;
+  margin: 10px;
+  padding: 15px;
+}
+.team-list-img {
+  width: 100px;
+  margin-right: 15px;
+}
+.team-list-name {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 1000px) {
+  .team-list-img {
+    width: 80px;
+  }
+  .team-list-name {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .team-list-link {
+    height: 150px;
+  }
+  .team-list-img {
+    width: 70px;
+  }
+  .team-list-name {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .team-list-img {
+    width: 60px;
+  }
+  .team-list-name {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .team-list-link {
+    height: 100px;
+  }
+  .team-list-img {
+    width: 50px;
+  }
+  .team-list-name {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .team-list-link {
+    width: 100%;
+    height: 100px;
+  }
+  .team-list-img {
+    width: 50px;
+  }
+  .team-list-name {
+    font-size: 18px;
+  }
+}
